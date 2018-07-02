@@ -12,5 +12,5 @@ Fun or often used pieces of code :)
 
 ## Structures
 - Metatype - hashable implementation of Self.type
-- Container - fabric based on Metatype and closures
+- Container - factory based on Metatype and closures
 - Result - simple structure for any kind of requests or workers
