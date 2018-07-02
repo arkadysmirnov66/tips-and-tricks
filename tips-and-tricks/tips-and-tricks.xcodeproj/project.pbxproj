@@ -129,7 +129,6 @@
 			children = (
 				A6FB793520EAC729005A5828 /* Container.swift */,
 				A6FB793720EAC743005A5828 /* Metatype.swift */,
-				A6FB792720EAC56B005A5828 /* SynchronizedArray.swift */,
 				A6FB792520EAC552005A5828 /* Result.swift */,
 			);
 			path = Structures;
@@ -149,6 +148,7 @@
 			children = (
 				A6FB793320EAC6CB005A5828 /* BaseOperation.swift */,
 				A6FB793020EAC66C005A5828 /* AsyncOperation.swift */,
+				A6FB792720EAC56B005A5828 /* SynchronizedArray.swift */,
 			);
 			path = Multithreading;
 			sourceTree = "<group>";
