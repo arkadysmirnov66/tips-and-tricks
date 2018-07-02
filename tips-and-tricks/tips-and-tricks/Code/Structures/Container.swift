@@ -23,14 +23,5 @@ public class Container {
     public func resolve<T>(_ type: T.Type) -> T? {
         return (container[Metatype(T.self)] as? (() -> T))?()
     }
-    
-//    public func registerSсreen<Type, Type2: Screen> (_ type: Type.Type, as registerType: Type2.Type) {
-//        self.container[Metatype(type)] = registerType
-//    }
-//  
-//    public func resolveScreen<T>(_ type: T.Type) -> Screen? {
-//        let instanceType = container[Metatype(T.self)] as! Screen.Type
-//        let result = instanceType.factoryMethod()
-//        return result
-//    }
+
 }
