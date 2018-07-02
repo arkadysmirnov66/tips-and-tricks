@@ -6,11 +6,11 @@ Fun or often used pieces of code :)
 - BaseOperation - it's child of AsyncOperation with Result 
 - SynchronizedArray - thread-safe array
 
-##Extentions
+## Extentions
 - QualityOfService - mapping to DispatchQoS enum
 - DispatchQueue - async method for ((T) -> Void) complition closures
 
-##Structures
+## Structures
 - Metatype - hashable implementation of Self.type
 - Container - fabric based on Metatype and closures
 - Result - simple structure for any kind of requests or workers
